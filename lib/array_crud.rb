@@ -9,9 +9,9 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  array = ["Hi", "mi", "amor", "Te"]
-  element << "amo!"
-  add_element_to_end_of_array << 'amo!'
+  element = ["Amo"]
+  array = ["Hi", "bae", "Te"]
+  array << element("Amo")
 
 end
 
