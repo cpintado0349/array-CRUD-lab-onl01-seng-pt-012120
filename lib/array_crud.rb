@@ -11,7 +11,7 @@ end
 def add_element_to_end_of_array(array, element = "Amo")
   element = ["Amo"]
   array = ["Hi", "bae", "Te"]
-  array << element("Amo")
+  array << element
   add_element_to_end_of_array
 
 end
